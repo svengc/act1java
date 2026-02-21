@@ -24,6 +24,8 @@ public class Main {
         System.out.println(product2.getPrice());
         System.out.println(product2.getStock());
         System.out.println();
+        System.out.println(product1.toString());
+        System.out.println();
         System.out.println(product2.toString());
     }
 }
