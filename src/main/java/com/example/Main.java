@@ -14,7 +14,10 @@ public class Main {
         product2.setPrice(250000);
         product2.setStock(5);
 
-        System.out.println(product1.toString());
+        System.out.println(product1.getId());
+        System.out.println(product1.getName());
+        System.out.println(product1.getPrice());
+        System.out.println(product1.getStock());
         System.out.println();
         System.out.println(product2.toString());
     }
